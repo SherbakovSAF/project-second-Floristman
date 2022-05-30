@@ -1,0 +1,26 @@
+.header__wrapper {
+    background: linear-gradient(180deg, #55B74C 0%, #4BA043 162.75%);
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.сategoryList {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 35px;
+}
+
+.category {
+    font-size: 18px;
+    line-height: 1.38;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+.main__image {
+    max-width: 100%;
+}

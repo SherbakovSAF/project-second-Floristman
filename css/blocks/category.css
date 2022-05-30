@@ -1,0 +1,34 @@
+.categoryBlocks {
+    padding: 75px 0px;
+}
+
+.category__blocks__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: stretch;
+    grid-gap: 30px;
+}
+.category__block {
+    height: 278px;
+    width: 278px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.category__block__img {
+    position: absolute;
+    z-index: -1;
+}
+.category__block__text {
+    min-width: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.388;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 18.5px 0;
+    background-color: rgba(85, 183, 76, 0.8);
+    border-radius: 13px 13px 0px 0px;
+}

@@ -1,0 +1,24 @@
+.footer__info__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__paySystem__logo {
+    margin-left: 20.27px;
+}
+
+.footer__paySystem__logo:first-child {
+    margin-left: 0px;
+}
+
+.footer__paySystem__one{
+    margin-bottom: 27px;
+}
+
+.footer__networks a{
+    margin-left: 30.42px;
+}
+
+.footer__networks a:first-child{
+    margin-left: 0px;
+}

@@ -1,0 +1,44 @@
+.howOrder {
+    margin-bottom: 75px;
+}
+
+.howOrder__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.371;
+
+    text-align: center;  
+    margin-bottom: 30px;
+}
+.howOrder__card__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+}
+.howOrder__card {
+    display: flex;
+    max-width: 278px;
+    flex-direction: column;
+
+    align-items: center;
+}
+.howOrder__card__img {
+    height: 72px;
+    width: 72px;
+    margin-bottom: 12px;
+}
+
+.howOrder__card__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.38;
+    text-align: center;
+
+    margin-bottom: 3px;
+}
+.howOrder__card__subtitle {
+    font-size: 18px;
+    line-height: 1.38;
+    text-align: center;
+}

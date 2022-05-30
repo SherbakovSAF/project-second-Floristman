@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- Block -->
+    <link rel="stylesheet" href="./css/blocks/nav.css">
+    <link rel="stylesheet" href="./css/blocks/header.css">
+    <link rel="stylesheet" href="./css/blocks/category.css">
+    <link rel="stylesheet" href="./css/blocks/stock.css">
+    <link rel="stylesheet" href="./css/blocks/order.css">
+    <link rel="stylesheet" href="./css/blocks/advantages.css">
+    <link rel="stylesheet" href="./css/blocks/howOrder.css">
+    <link rel="stylesheet" href="./css/blocks/footerNav.css">
+    <link rel="stylesheet" href="./css/blocks/footerInfo.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./fonts/Manrope/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/Roboto/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/Rubik/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/Inter/stylesheet.css">
+</head>
+
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__blocks__top">
+                <div class="nav__top__textWrapper">
+                    <p class="nav__top__text">Контакты</p>
+                    <p class="nav__top__text">О нас</p>
+                    <p class="nav__top__text">Доставка</p>
+                    <p class="nav__top__text">Политика безопасности</p>
+                    <p class="nav__top__text">Условия соглашения</p>
+                </div>
+                <div class="nav__top__loginWrapper">
+                    <p class="nav__top__loginText">Личный кабинет</p>
+                    <img src="./img/mainPage/login.svg" alt="" class="nav__top__loginImg">
+                </div>
+            </div>
+             <div class="nav__blocks__bottom">
+                <div class="nav__bottom__left">
+                    <img src="./img/general/logo.svg" alt="logo" class="logo">
+                    <p class="nav__city__text">г. Москва</p>
+                </div>
+                <div class="nav__bottom__right">
+                    <a href="tel:+79687657007"><div class="nav__number__wrapper">
+                        <img src="./img/mainPage/phone.svg" alt="phone" class="icon__phone">
+                        <p class="nav__number__text">+7 968 765-70-07</p>    
+                    </div></a>
+                    <div class="nav__tools__wrapper">
+                        <img src="./img/mainPage/search.svg" alt="" class="bottomRight__search">
+                        <img src="./img/mainPage/buy.svg" alt="" class="bottomRight__buy">
+                        <img src="./img/mainPage/like.svg" alt="" class="bottomRight__like ">
+                    </div>
+                </div>
+             </div>
+        </div>
+    </nav>
+    <main>
+        <section class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <ul class="сategoryList">
+                        <li class="category">Цветы</li>
+                        <li class="category">Подарки</li>
+                        <li class="category">Фруктовые корзины</li>
+                        <li class="category">Воздушные шарики</li>
+                        <li class="category">Комнатные растения</li>
+                        <li class="category">Сладости</li>
+                        <li class="category">Услуги</li>
+                        <li class="category">Аксессуары</li>
+                    </ul>
+                </div>
+                <img src=".//img/mainPage/mainImage.jpg" alt="" class="main__image">
+            </div>
+        </section>
+        <section class="categoryBlocks">
+            <div class="container">
+                <div class="category__blocks__wrapper">
+                    <a href="#"><div class="category__block">
+                        <img src="./img/itemSell/itemFlowers.jpg" alt="" class="category__block__img">
+                        <h2 class="category__block__text">Цветы</h2>
+                    </div></a>
+                    <a href="#"><div class="category__block">
+                        <img src="./img/itemSell/itemBalloon.jpg" alt="" class="category__block__img">
+                        <h2 class="category__block__text">Воздушные шарики</h2>
+                    </div></a>
+                    <a href="#"><div class="category__block">
+                        <img src="./img/itemSell/itemSweets.jpg" alt="" class="category__block__img">
+                        <h2 class="category__block__text">Сладости</h2>
+                    </div></a>
+                    <a href="#"><div class="category__block">
+                        <img src="./img/itemSell/itemFruits.jpg" alt="" class="category__block__img">
+                        <h2 class="category__block__text">Фруктовые корзины</h2>
+                    </div></a>
+                    <a href="#"><div class="category__block">
+                        <img src="./img/itemSell/itemHouseplants.jpg" alt="" class="category__block__img">
+                        <h2 class="category__block__text">Комнатные растения</h2>
+                    </div></a>
+                    <a href="#"><div class="category__block">
+                        <img src="./img/itemSell/itemGifts.jpg" alt="" class="category__block__img">
+                        <h2 class="category__block__text">Подарки</h2>
+                    </div></a>
+                    <a href="#"><div class="category__block">
+                        <img src="./img/itemSell/itemService.jpg" alt="" class="category__block__img">
+                        <h2 class="category__block__text">Услуги</h2>
+                    </div></a>
+                    <a href="#"><div class="category__block">
+                        <img src="./img/itemSell/itemAccessories.jpg" alt="" class="category__block__img">
+                        <h2 class="category__block__text">Аксессуары</h2>
+                    </div></a>
+                </div>
+            </div>
+        </section>
+        <section class="stockBlocks">
+            <div class="container">
+                <h1 class="stock__title">Акция</h1>
+                <div class="stock__card__wrapper">
+                    <div class="stock__card">
+                        <img src="./img/stock/itemStocks.jpg" alt="" class="stock__card__image">
+                        <h3 class="stock__card__title">Корзина роз</h3>
+                        <h2 class="stock__card__price">150 руб.</h2>
+                        <h2 class="stock__card__oldPrice">190 руб.</h2>
+                        <button class="stock__card__btn">Добавить в корзину</button>
+                    </div>
+                    <div class="stock__card">
+                        <img src="./img/stock/itemStocks.jpg" alt="" class="stock__card__image">
+                        <h3 class="stock__card__title">Корзина роз</h3>
+                        <h2 class="stock__card__price">150 руб.</h2>
+                        <h2 class="stock__card__oldPrice">190 руб.</h2>
+                        <button class="stock__card__btn">Добавить в корзину</button>
+                    </div>
+                    <div class="stock__card">
+                        <img src="./img/stock/itemStocks.jpg" alt="" class="stock__card__image">
+                        <h3 class="stock__card__title">Корзина роз</h3>
+                        <h2 class="stock__card__price">150 руб.</h2>
+                        <h2 class="stock__card__oldPrice">190 руб.</h2>
+                        <button class="stock__card__btn">Добавить в корзину</button>
+                    </div>
+                    <div class="stock__card">
+                        <img src="./img/stock/itemStocks.jpg" alt="" class="stock__card__image">
+                        <h3 class="stock__card__title">Корзина роз</h3>
+                        <h2 class="stock__card__price">150 руб.</h2>
+                        <h2 class="stock__card__oldPrice">190 руб.</h2>
+                        <button class="stock__card__btn">Добавить в корзину</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="orderBlocks">
+            <div class="container">
+                <div class="order__title">Заказать уникальный букет</div>
+                <div class="order__card__wrapper">
+                    <div class="order__card__contentWrapper">
+                        <div class="card__content__input__block">
+                            <input type="text" class="content__input__block" placeholder="Ваше имя*">
+                            <input type="tel" class="content__phone__block" placeholder="Ваш телефон*">
+                            <textarea class="content__idea__block" placeholder="Ваша идея*"></textarea>
+                            <div class="content__btn__wrapper">
+                                <button class="content__btn__file">+ Прикрепить файл</button>
+                                <button class="content__btn__send">Отправить</button>
+                            </div>
+                        </div>
+                        <div class="card__content__image__block">
+                            <img src="./img/order/image.jpg" alt="" class="order__content__image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+               <div class="advantages__title">4 веских причины выбрать нас"</div>
+               <div class="advantages__card__wrapper">
+                   <div class="advantages__card">
+                       <img src="./img/advantages/advantageQuality.svg" alt="" class="advantages__card__img">
+                       <h3 class="advantages__card__title">Качество</h3>
+                       <p class="advantages__card__subtitle">На Рыжском рынке предоставлены оптовые продавцы, которые торгуют самыми свежими цветами</p>
+                   </div>
+                   <div class="advantages__card">
+                    <img src="./img/advantages/advantagesPhotoReport.svg" alt="" class="advantages__card__img">
+                    <h3 class="advantages__card__title">Фото-отчет</h3>
+                    <p class="advantages__card__subtitle">Перед доставкой 
+                        мы отправляем Вам фотографию готового букета</p>
+                </div>
+                <div class="advantages__card">
+                    <img src="./img/advantages/advantagesIconPrice.svg" alt="" class="advantages__card__img">
+                    <h3 class="advantages__card__title">Цена</h3>
+                    <p class="advantages__card__subtitle">Да, у нас самые дешевые цены в онлайне! В 2-3 раза дешевле от обычных!</p>
+                </div>
+                <div class="advantages__card">
+                    <img src="./img/advantages/advantagesIconTime.svg" alt="" class="advantages__card__img">
+                    <h3 class="advantages__card__title">Время</h3>
+                    <p class="advantages__card__subtitle">Мы доставляем от 2-х часов! (Реальное время,<br>а не маркетинговый ход)<br>И принимаем заказы 24/7</p>
+                </div>
+               </div>
+            </div>
+        </section>
+        <section class="howOrder">
+            <div class="container">
+               <div class="howOrder__title">Как оформить заказ?"</div>
+               <div class="howOrder__card__wrapper">
+                   <div class="howOrder__card">
+                       <img src="./img/howOrder/howOrderApplication.svg" alt="" class="howOrder__card__img">
+                       <h3 class="howOrder__card__title">Оставьте заявку на сайте</h3>
+                       <p class="howOrder__card__subtitle">Наш сотрудник свяжется<br>с Вами для уточнения деталей вашего заказа</p>
+                   </div>
+                   <div class="howOrder__card">
+                    <img src="./img/howOrder/howOrderPhotoReport.svg" alt="" class="howOrder__card__img">
+                    <h3 class="howOrder__card__title">Способ оплаты</h3>
+                    <p class="howOrder__card__subtitle">Перед доставкой мы пришлем фотографию готового Вашего букета, чтобы Вы убедились<br>в его качестве. После утверждения вами заказа, курьер поедет по адресу</p>
+                </div>
+                <div class="howOrder__card">
+                    <img src="./img/howOrder/howOrderPay.svg" alt="" class="howOrder__card__img">
+                    <h3 class="howOrder__card__title">Способ оплаты</h3>
+                    <p class="howOrder__card__subtitle">Наличными либо безналичным расчетом банковской картой после доставки</p>
+                </div>
+                <div class="howOrder__card">
+                    <img src="./img/howOrder/howOrderDelivery.svg" alt="" class="howOrder__card__img">
+                    <h3 class="howOrder__card__title">Доставка</h3>
+                    <p class="howOrder__card__subtitle">Возьмём на себя все заботы по созданию, оформлению<br>и доставке корпоративных букетов в обычные и праздничные дни за разумные деньги</p>
+                </div>
+               </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer__nav">
+             <div class="container">
+                 <div class="footer__wrapper">
+                     <div class="footer__block__info">
+                        <h3 class="footer__block__title">Информация</h3>
+                        <ul class="footer__block__text">
+                            <a href="#"><li>О нас</li></a>
+                            <a href="#"><li>Доставка</li></a>
+                            <a href="#"><li>Политика безопасности</li></a>
+                            <a href="#"><li>Условия соглашения</li></a>
+                        </ul>
+                     </div>
+                     <div class="footer__block">
+                        <h3 class="footer__block__title">Каталог</h3>
+                        <ul class="footer__block__text">
+                            <a href="#"><li>Цветы</li></a>
+                            <a href="#"><li>Подарки</li></a>
+                            <a href="#"><li>Фруктовые корзины</li></a>
+                            <a href="#"><li>Воздушные шарики</li></a>
+                            <a href="#"><li>Комнатные растения</li></a>
+                            <a href="#"><li>Сладости</li></a>
+                            <a href="#"><li>Услуги</li></a>
+                            <a href="#"><li>Аксессуары</li></a>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <h3 class="footer__block__title">Личный кабинет</h3>
+                        <ul class="footer__block__text">
+                            <a href="#"><li>Личный кабинет</li></a>
+                            <a href="#"><li>Корзина</li></a>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                        <h3 class="footer__block__title">Адрес</h3>
+                        <ul class="footer__block__text">
+                            <a href="#"><li>г. Москва</li></a>
+                        </ul>
+                    </div>
+                    <div class="footer__block">
+                         <div class="block__connection__phone">
+                            <h3 class="footer__block__title">Телефоны</h3>
+                            <ul class="footer__block__text   footer__phone">
+                                <a href="tel:+79687657007"><li>+7 968 765-70-07</li></a>
+                                <a href="tel:+79259657007"><li>+7 925 965-70-07</li></a>
+                            </ul>
+                         </div>
+                         <div class="block__connection__mail">
+                            <h3 class="footer__block__title">По любым вопросам</h3>
+                            <ul class="footer__block__text   footer__mail">
+                                <a href="mailto:info@floristman.ru"><li>info@floristman.ru</li></a>
+                            </ul>
+                         </div>
+                    </div>
+                 </div>
+             </div>
+        </section>
+        <section class="footer__info">
+            <div class="container">
+                <div class="footer__info__wrapper">
+                    <div class="footer__paySystem">
+                        <div class="footer__paySystem__one">
+                            <img src="./img/PaymentSystems/applePay.svg" alt="" class="footer__paySystem__logo">
+                            <img src="./img/PaymentSystems/googlePay.svg" alt="" class="footer__paySystem__logo">
+                            <img src="./img/PaymentSystems/masterCart.svg" alt="" class="footer__paySystem__logo">
+                            <img src="./img/PaymentSystems/russianBestSystemNumberOne.svg" alt="" class="footer__paySystem__logo">
+                            <img src="./img/PaymentSystems/1890year.svg" alt="" class="footer__paySystem__logo">
+                            <img src="./img/PaymentSystems/watermelon.svg" alt="" class="footer__paySystem__logo">
+                        </div>
+                        <div class="footer__paySystem__one">
+                            <img src="./img/PaymentSystems/samsungPay.svg" alt="" class="footer__paySystem__logo">
+                            <img src="./img/PaymentSystems/sberBank.svg" alt="" class="footer__paySystem__logo">
+                            <img src="./img/PaymentSystems/neMasterCart.svg" alt="" class="footer__paySystem__logo">
+                            <img src="./img/PaymentSystems/WebMoney.svg" alt="" class="footer__paySystem__logo">
+                        </div>
+                    </div>
+                    <div class="footer__networks">
+                        <a href="#"><img src="./img/networks/youtube.svg" alt="" class="footer__networks__logo"></a>
+                        <a href="#"><img src="./img/networks/whatsapp.svg" alt="" class="footer__networks__logo"></a>
+                        <a href="#"><img src="./img/networks/telegram.svg" alt="" class="footer__networks__logo"></a>
+                        <a href="#"><img src="./img/networks/inst.svg" alt="" class="footer__networks__logo"></a>
+                        <a href="#"><img src="./img/networks/tiktok.svg" alt="" class="footer__networks__logo"></a>
+                    </div>
+                </div>
+            </div>
+            <h2 class="footer__logo__bottom">FloristMan © 2022</h2>
+        </section>
+    </footer>
+</body>
+</html>
