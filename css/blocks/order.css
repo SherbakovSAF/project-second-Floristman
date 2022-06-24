@@ -24,6 +24,8 @@
     width: 690px;
     display: flex;
     flex-direction: column;
+    outline: transparent;
+    outline-offset: 0;
 }
 
 .card__content__input__block input, 
@@ -41,6 +43,9 @@
     margin-top: 20px;
     
 }
+
+
+
 .card__content__input__block input:first-child {
     margin-top: 0px;
 }
